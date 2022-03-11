@@ -7,7 +7,7 @@ T=$(date +%T)
 
 Ym=$Y-$M
 Ymd=$Y-$M-$D
-YmdT=$Y-$M-$D-$T
+YmdT=$Y-$M-$D $T
 GitRep="Transyslab"
 HomeDir="/mnt/c/GitRepo"
 
