@@ -3,13 +3,11 @@
 Y=$(date +%Y)
 M=$(date +%m)
 D=$(date +%d)
-hr=$(date +%H)
-min=$(date +%M)
-sec=$(date +%S)
+T=$(date +%T)
 
 Ym=$Y-$M
 Ymd=$Y-$M-$D
-Ymdhms= $Y-$M-$D $hr:$min:$sec
+YmdT= $Y-$M-$D $T
 GitRep="Transyslab"
 HomeDir="/mnt/c/GitRepo"
 
@@ -19,7 +17,7 @@ FileNm="$Ymd".md
 
 mkdir -p $FileDir
 
-echo "### $Ymdhms Diary" >> $FileDir/$FileNm
+echo "### $YmdT Diary" >> $FileDir/$FileNm
 
 cd $Gitdir
 git add .
