@@ -10,7 +10,7 @@ GitRep="Transyslab"
 HomeDir="/mnt/c/GitRepo"
 
 Gitdir="$HomeDir/$GitRep"
-FileDir="$Homedir/$GitRep/$Ym"
+FileDir="$HomeDir/$GitRep/$Ym"
 FileNm="$Ymd".md
 
 mkdir -p $FileDir
