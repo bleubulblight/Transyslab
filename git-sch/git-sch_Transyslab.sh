@@ -3,10 +3,13 @@
 Y=$(date +%Y)
 M=$(date +%m)
 D=$(date +%d)
+hr=$(date +%H)
+min=$(date +%M)
+sec=$(date +%S)
 
 Ym=$Y-$M
 Ymd=$Y-$M-$D
-Ymdhms= $(date "+%Y-%m-%d %H:%M:%S")
+Ymdhms= $Y-$M-$D $hr:$min:$sec
 GitRep="Transyslab"
 HomeDir="/mnt/c/GitRepo"
 
