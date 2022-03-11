@@ -2,7 +2,7 @@
 
 Y=$(date +%Y)
 M=$(date +%m)
-D=$(data +%d)
+D=$(date +%d)
 
 Ym=$Y-$M
 Ymd=$Y-$M-$D
