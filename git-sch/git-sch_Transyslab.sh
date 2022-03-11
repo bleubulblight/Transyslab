@@ -6,7 +6,7 @@ D=$(date +%d)
 
 Ym=$Y-$M
 Ymd=$Y-$M-$D
-Ymdhms= $(date +%Y-%m-%d %H:%M:%S)
+Ymdhms= $(date "+%Y-%m-%d %H:%M:%S")
 GitRep="Transyslab"
 HomeDir="/mnt/c/GitRepo"
 
