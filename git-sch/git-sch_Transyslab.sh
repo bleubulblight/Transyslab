@@ -20,5 +20,5 @@ echo "### $Ymd $T Diary" >> $FileDir/$FileNm
 
 cd $Gitdir
 git add .
-git commit -m "commit $FileNm"
+git commit -m "commit $FileNm $T"
 git push origin main
