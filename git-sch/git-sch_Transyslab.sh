@@ -16,7 +16,7 @@ FileNm="$Ymd".md
 
 mkdir -p $FileDir
 
-echo "### $Ymd $T Memo" >> $FileDir/$FileNm
+echo "### $GitRep $Ymd $T Memo" >> $FileDir/$FileNm
 
 cd $Gitdir
 git add .
