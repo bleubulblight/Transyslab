@@ -7,7 +7,6 @@ T=$(date +%T)
 
 Ym=$Y-$M
 Ymd=$Y-$M-$D
-YmdT=$Y-$M-$D $T
 GitRep="Transyslab"
 HomeDir="/mnt/c/GitRepo"
 
@@ -17,7 +16,7 @@ FileNm="$Ymd".md
 
 mkdir -p $FileDir
 
-echo "### $YmdT Diary" >> $FileDir/$FileNm
+echo "### $Ymd $T Diary" >> $FileDir/$FileNm
 
 cd $Gitdir
 git add .
