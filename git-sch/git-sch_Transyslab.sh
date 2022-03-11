@@ -16,7 +16,7 @@ FileNm="$Ymd".md
 
 mkdir -p $FileDir
 
-echo "### $Ymd $T Diary" >> $FileDir/$FileNm
+echo "### $Ymd $T Memo" >> $FileDir/$FileNm
 
 cd $Gitdir
 git add .
